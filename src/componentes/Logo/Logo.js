@@ -9,6 +9,7 @@ const Logo = () => {
         alt='logo' 
         className='ajuste'
         ></img>
+        
         <p><strong>Alura</strong>Books</p>
         </div>
     )

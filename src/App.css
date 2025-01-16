@@ -18,29 +18,3 @@ li {
 
 }
 
-.opcoes {
-  display: flex;
-}
-
-.opcao {
-  min-width: 120px;
-  font-size: 16px;
-  justify-content: center;
-  text-align: center;
-  height: 100%;
-  cursor: pointer;
-  display: flex;
-  padding: 0 5px;
-  align-items: center;
-}
-
-.icones {
-  display: flex;
-  align-items: center;
-}
-
-.iconezinho {
-  width: 25px;
-  margin-right: 40px;
-
-}

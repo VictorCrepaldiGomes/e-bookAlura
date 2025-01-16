@@ -1,0 +1,10 @@
+.icones {
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconezinho {
+    width: 25px;
+    margin-right: 40px;
+  
+  }
