@@ -1,7 +1,10 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(90deg, #321385 35%, #07070a 165%);
+  background-image: linear-gradient(90deg, #002F52 35%, #326589 165%);
+  text-align: center;
+  min-height: 100vh; /* Garante que o fundo cubra toda a altura da página */
+  
 
 }
 

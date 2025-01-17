@@ -1,6 +1,7 @@
 import './App.css';
 import Icones from './componentes/Icones/Icones';
 import Logo from './componentes/Logo/Logo';
+import Pesquisa from './componentes/Pesquisa/Pesquisa';
 import OpcoesHeader from './OpcoesHeader/Opcoes';
 
 
@@ -14,7 +15,13 @@ function App() {
         <Logo />
         <OpcoesHeader />
         <Icones />
+
       </header>
+
+      
+      <Pesquisa />
+
+
     </div>
   );
 }

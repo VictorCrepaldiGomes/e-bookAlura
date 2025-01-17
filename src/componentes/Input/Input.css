@@ -1,0 +1,16 @@
+.botao {
+    border: 1px solid #FFF; /* Corrigido de order para border */
+    background: transparent;
+    padding: 20px 140px;
+    border-radius: 50px;
+    width: 200px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.botao::placeholder {
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+}
