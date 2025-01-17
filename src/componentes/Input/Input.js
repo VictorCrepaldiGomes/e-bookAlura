@@ -1,16 +1,14 @@
-import './Input.css'
+import React from 'react';
+import './Input.css';
 
-
-function Input() {
-    return (
-        
-        <input className='botao' placeholder="Digite aqui" />
-    )
+function Input({ placeholder, onChange }) {
+  return (
+    <input
+      className="botao"
+      placeholder={placeholder}
+      onChange={onChange}
+    />
+  );
 }
 
-
-
-
-
-
-export default Input 
+export default Input;
