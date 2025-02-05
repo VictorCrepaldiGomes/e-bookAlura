@@ -1,3 +1,4 @@
+import React from 'react';
 import './Opcoes.css';
 
 const textoOpcoes = ['Categorias', 'Minha Estante', 'Favoritos'];
@@ -7,6 +8,7 @@ function OpcoesHeader() {
         <ul className="opcoes">
         {textoOpcoes.map((texto) => (
           <li className='opcao'><p>{texto}</p></li>
+          
 
         ))}
         </ul>

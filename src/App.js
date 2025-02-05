@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Icones from './componentes/Icones/Icones';
 import Lancamentos from './componentes/Lancamentos/Lancamentos';
@@ -5,6 +6,7 @@ import Logo from './componentes/Logo/Logo';
 import Pesquisa from './componentes/Pesquisa/Pesquisa';
 import Titulo from './componentes/Titulo/Titulo';
 import OpcoesHeader from './OpcoesHeader/Opcoes';
+
 
 
 
