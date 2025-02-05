@@ -31,6 +31,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/favoritos" element={<p>OI!</p>}/>
+        <Route path="/estante" element={<p>OI!</p>}/>
+        <Route path="/categorias" element={<p>OI!</p>}/>
         <Route path="/" element={<App />}/>
       </Routes>
     
